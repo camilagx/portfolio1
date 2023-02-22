@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #55554b;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -49,6 +49,7 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
+  letter-spacing: 0.5px;
   transition: all .5s;
 }
 .nav a:hover {
@@ -57,7 +58,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/banner.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -77,29 +78,27 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
-  padding: 10px;
+  background-color: white;
+  padding: 2px 10px;
   border-radius: 5px;
   display: table;
-  margin: 10px auto;
+  margin: 5px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  padding: 0;
+  margin-bottom: 10px;
 }
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #a18a7a;
 }
 
 ul.skills {
@@ -110,14 +109,13 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #cead9c;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #f7f5e9;
 }
 
 footer {
